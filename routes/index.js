@@ -4,7 +4,7 @@ const fs = require('fs');
 
 router.get('/', function (req, res, next) {
   res.send('<h1>Your server works</h1> <p>Please run ngrok, send POST events to <b>/events</b> ' +
-      'and view them on <b>/json</b>! More info: <a href="https://github.com/Salimify">here</a></p> ');
+      'and view them on <b>/json</b>! More info: <a href="https://github.com/Salimify/Webhook-Testing-Tool">Here</a></p> ');
 });
 
 router.post('/events', function (req, res, next) {
